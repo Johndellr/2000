@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website</title>
+  <style>
+    .whatsapp-icon {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Your website content here -->
+
+<!-- WhatsApp icon -->
+<a href="#" onclick="openWhatsApp()" class="whatsapp-icon">
+  <img src="whatsapp-icon.png" alt="WhatsApp">
+</a>
+
+<script>
+  // Function to open WhatsApp link
+  function openWhatsApp() {
+    window.open("https://api.whatsapp.com/send?phone=+260967847298", "_blank");
+  }
+</script>
+
+</body>
+</html>
